@@ -12,7 +12,32 @@
 - 프로그램 종료
 
 ## 파일 구조
-![Roadmap](roadmap.jpg)
+# 프로젝트 구조
+
+## 1. 소스 디렉토리 (src/)
+- **com/**: 기본 패키지
+  - **login/**: 로그인 관련 기능
+    - **controller/**: 로그인 처리 및 관련 로직
+      - `LoginHandle.java`: 로그인 요청 처리
+      - `LoginProgram.java`: 로그인 프로그램 실행 로직
+      - `MemberDelete.java`: 회원 삭제 기능
+      - `MemberFix.java`: 회원 정보 수정 기능
+      - `MemberList.java`: 회원 목록 조회 기능
+    - **domain/**: 도메인 모델
+      - `MemberInfo.java`: 회원 정보 모델 클래스
+    - **main/**: 프로그램의 진입점
+      - `Display.java`: 사용자 인터페이스 표시
+    - **register/**: 회원 등록 관련 기능
+      - `Choice.java`: 등록 방법 선택 기능
+      - `MemberRegister.java`: 회원 등록 로직
+      - `Main.java`: 등록 프로그램의 진입점
+
+## 2. 기능 개요
+- **로그인 처리**: 사용자 인증 및 세션 관리
+- **회원 관리**: 회원 추가, 수정, 삭제 및 목록 조회
+- **회원 등록**: 신규 회원 등록 및 등록 선택 기능
+- **UI 표시**: 사용자 인터페이스를 위한 화면 표시
+
 
 
 ## 클래스 설명
