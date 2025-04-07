@@ -17,7 +17,7 @@
 6. 프로그램 종료
 
 ## 파일 구조
-![Roadmap](roadmap.jpg)
+<img src="roadmap.jpg" alt="Roadmap" width="800" height="600">
 
 
 ## 소스 디렉토리 (src/)
