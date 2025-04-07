@@ -17,23 +17,7 @@
 6. 프로그램 종료
 
 ## 파일 구조
-src/
-└── com/
-    ├── login/
-    │   ├── controller/
-    │   │   ├── LoginHandle.java
-    │   │   ├── LoginProgram.java
-    │   │   ├── MemberDelete.java
-    │   │   ├── MemberFix.java
-    │   │   └── MemberList.java
-    │   └── domain/
-    │       └── MemberInfo.java
-    └── main/
-        └── Display.java
-    └── register/
-        ├── Choice.java
-        ├── MemberRegister.java
-        └── Main.java
+![Roadmap](roadmap.jpg)
 
 
 ## 소스 디렉토리 (src/)
